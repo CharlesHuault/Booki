@@ -1,31 +1,48 @@
-/* Font*/
-*
-{
-    font-family: 'raleway', Impact, Arial; sans-serif;
-    
-    }
-
-html{
+* {
     max-width: 1400px;
-}
+    box-sizing: border-box;
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+  }
 
 /* Header*/
 
 #header
 	{
 	display:flex;
+    }
     
-	}
-    
+
+
+a:hover:before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 162px;
+        left:1092px;
+        top: 0px;
+        background-color: #0065FC;
+    }
 /* Menu */
 
+#Menu{
+    display:flex;
+    position: absolute;
+    width: 381px;
+    height: 67px;
+    left:982px;
+    list-style-type: none;
+    
+
+}
 
 #nav{
     display:flex;
     position: absolute;
     width: 381px;
+    left:982px;
     height: 19px;
-    left: 982px;
     top: 48px;
     list-style-type: none;
     
@@ -61,7 +78,27 @@ html{
     align-items:center;
 }
 
+nav a{
+    text-decoration: none;
+    color:black;
+}
 
+nav a:hover{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:blue;
+   
+}
+
+
+
+
+
+a:visited{
+    text-decoration: none;
+    color:black
+}
 h1{
     font-size: 22px;
     font-weight: 700;
