@@ -5,7 +5,9 @@
     
     }
 
-
+html{
+    max-width: 1400px;
+}
 
 /* Header*/
 
@@ -14,6 +16,34 @@
 	display:flex;
     flex-direction: column;
 	}
+
+.LogoHeader{
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    }
+  
+    
+/* Menu */
+
+#nav{
+    display:flex;
+    justify-content:flex-end;
+    position: absolute;
+    width: 381px;
+    height: 19px;
+    left: 982px;
+    top: 48px;
+    border:2px solid black;
+  
+}
+
+#HébPage{
+    margin-right: 130px;
+    
+}
 
 .LogoHeader{
     position: absolute;
