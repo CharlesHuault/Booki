@@ -14,48 +14,51 @@ html{
 #header
 	{
 	display:flex;
-    flex-direction: column;
+    
 	}
-
-.LogoHeader{
-    position: absolute;
-    width: 61.09px;
-    height: 19px;
-    left: 0px;
-    top: 0px;
-    }
-  
     
 /* Menu */
 
+
 #nav{
     display:flex;
-    justify-content:flex-end;
     position: absolute;
     width: 381px;
     height: 19px;
     left: 982px;
     top: 48px;
-    border:2px solid black;
-  
-}
-
-#HébPage{
-    margin-right: 130px;
+    list-style-type: none;
     
 }
 
-.LogoHeader{
+#HébPage{
+    display: flex;
     position: absolute;
-    width: 61.09px;
-    height: 19px;
-    left: 0px;
-    top: 0px;
+    left: 36.22%;
+    right: 34.12%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items:center;
+    
+    
 }
 
-.element1{
-    margin-left: 55px;
-    margin-top: 44px;
+#ActPage{
+    display:flex;
+    position: absolute;
+    left: 83.46%;
+    right: 0%;
+    top: 0%;
+    bottom:0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items:center;
 }
 
 
