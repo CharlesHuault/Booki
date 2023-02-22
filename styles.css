@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 
-/* Header*/
+/*Header*/
 
 #header {
     display: flex;
@@ -19,15 +19,17 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-}
+}   
 
-#header img {
-    height: 29px;
-}
+    #header img {
+        padding-left: 55px;
+         height: 29px;
+        }
 
 /* Menu */
 
 nav {
+    padding-right: 77px;
     display: flex;
     height: 100%;
     top: 48px;
@@ -53,6 +55,74 @@ nav a:hover {
     border-top: 2px solid #0065FC;
 
 }
+
+/* Header Mobile */
+
+@media screen and (max-width: 768px) {
+    #header img {
+        height: 19px;
+        padding-left: 0%;
+    }
+
+    #header{
+        display:flex;
+        flex-direction: column;
+        height:129px;
+        align-items: center;
+        margin-top: 21px;
+    }
+
+    nav{
+        padding-right: 0%;
+        width:100%;
+        height:100%;
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    nav a {
+        height:100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        border-bottom:3px solid #F2F2F2;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+        font-weight: 500;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top:none;
+    
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
     font-size: 22px;
