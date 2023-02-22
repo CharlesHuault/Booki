@@ -1,113 +1,67 @@
 * {
-    max-width: 1400px;
     box-sizing: border-box;
     font-family: "Raleway";
     margin: 0;
     padding: 0;
-  }
+
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
 
 /* Header*/
 
-#header
-	{
-	display:flex;
-    }
-    
+#header {
+    display: flex;
+    height: 102px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#header img {
+    height: 29px;
+}
 
-a:hover:before {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 162px;
-        left:1092px;
-        top: 0px;
-        background-color: #0065FC;
-    }
 /* Menu */
 
-#Menu{
-    display:flex;
-    position: absolute;
-    width: 381px;
-    height: 67px;
-    left:982px;
-    list-style-type: none;
-    
-
-}
-
-#nav{
-    display:flex;
-    position: absolute;
-    width: 381px;
-    left:982px;
-    height: 19px;
-    top: 48px;
-    list-style-type: none;
-    
-}
-
-#HébPage{
+nav {
     display: flex;
-    position: absolute;
-    left: 36.22%;
-    right: 34.12%;
-    top: 0%;
-    bottom: 0%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    align-items:center;
-    
-    
+    height: 100%;
+    top: 48px;
+    align-items: center;
 }
 
-#ActPage{
-    display:flex;
-    position: absolute;
-    left: 83.46%;
-    right: 0%;
-    top: 0%;
-    bottom:0%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    align-items:center;
-}
 
-nav a{
+nav a {
+    display: flex;
     text-decoration: none;
-    color:black;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 100%;
+    align-items: center;
+    border-top:2px solid transparent;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
-    color:blue;
-   
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
 }
 
-
-
-
-
-a:visited{
-    text-decoration: none;
-    color:black
-}
-h1{
+h1 {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
 }
 
-h2{
+h2 {
     font-size: 16px;
     font-weight: 400;
 
 }
-
