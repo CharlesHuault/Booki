@@ -135,17 +135,100 @@ nav a:hover {
 }
 
 
+/* Section Research */
+
+#Topsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 55px;
+    margin-top: 63px;
+    height: 263px;
+    width:914px;
+}
 
 
+#Searchbar{
+    display: flex;
+    flex-direction: row;
+    height:49px;
+}
 
+#LocLogo{
+    display: flex;
+    background-color: #F2F2F2;
+    width:50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 0px 0px 15px;
+}
 
+.Search{
+    display: flex;
+    height:100%;
+    align-items: center;
+    width:236px;
+    border: 1px solid #F2F2F2;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 17px;
 
+}
 
+#SearchButton{
+    display: flex;
+    width:132px;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
 
+#FiltersBar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
 
+.FilterButton{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 4px 15px;
+    font-weight: 700;
+    font-size: 17px;
+}
 
+#Topsection i {
+    color: #0065FC;
+}
 
+.FilterButton:hover{
+    background-color: #DEEBFF;
+}
 
+#infobar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+
+#infobar i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:24px;
+    width: 24px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #D9D9D9;
+    margin-right: 11px;
+}
 
 
 
