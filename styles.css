@@ -10,6 +10,7 @@ body {
     max-width: 1400px;
     margin: auto;
 }
+
 h1 {
     font-size: 22px;
     font-weight: 700;
@@ -21,6 +22,7 @@ h2 {
     font-weight: 400;
 
 }
+
 /*Header Desktop*/
 
 #header {
@@ -163,6 +165,8 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     height: 49px;
+    justify-content: center;
+
 }
 
 #LocLogo {
@@ -190,12 +194,22 @@ nav a:hover {
     display: flex;
     width: 132px;
     background-color: #0065FC;
+    border-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     align-items: center;
     justify-content: center;
     font-weight: 700;
     font-size: 18px;
     color: white;
+    border-style: solid;
+}
+
+#SearchButton i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: none;
 }
 
 #FiltersBar {
@@ -215,7 +229,7 @@ nav a:hover {
     font-size: 17px;
 }
 
-#Topsection i {
+#FiltersBar i {
     color: #0065FC;
 }
 
@@ -239,47 +253,75 @@ nav a:hover {
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #D9D9D9;
     margin-right: 11px;
+    color: #0065FC;
 }
 
 
 /* Section Research Mobile*/
 
-@media screen and (max-width: 767px){
-    #Topsection{
+@media screen and (max-width: 767px) {
+    #Topsection {
         max-width: 375px;
-        height:463px;
+        height: 504px;
         margin-top: 30px;
+        padding-left: 20px;
+        justify-content:space-between;
     }
 
-    #FiltersBar{
+    #Searchbar{
+        width:332px;
+    }
+
+    .Search{
+        width:232px;
+    }
+
+    #SearchButton{
+        width:50px;
+    }
+
+    #Rechercher {
+        Display:none;
+    }
+
+    #SearchButton i{
+        display: inline;
+    }
+
+
+    #FiltersBar {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        height: 153px;
     }
 
-  .Filtres{
+    .Filtres {
         font-weight: 700;
         font-size: 18px;
         width: 100%;
     }
 
+    #FiltersBar i {
+        padding-right: 6px;
+    }
 
-    .FilterButton{
+
+    .FilterButton {
         display: flex;
         align-items: center;
         width: 160px;
         height: 50px;
         font-weight: 700;
         font-size: 11px;
-        
+
 
     }
 
-  
+    #infobar i {
+        padding-left: 10px;
+        padding-right: 10px;
+        color:#0065FC;
+    }
+
 }
-
-
-
-
-
-
