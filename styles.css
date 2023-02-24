@@ -1,3 +1,5 @@
+/* Propriétés Générales Desktop */
+
 * {
     box-sizing: border-box;
     font-family: "Raleway";
@@ -22,6 +24,15 @@ h2 {
     font-weight: 400;
 
 }
+
+/* Propriétés Générales Tablette */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        max-width: 1024px;
+    }
+}
+
 
 /*Header Desktop*/
 
@@ -80,7 +91,7 @@ nav a:hover {
         max-width: 467px;
         display: flex;
         flex-direction: column;
-        height: 129px;
+        height: 121px;
         align-items: center;
         margin-top: 21px;
     }
@@ -323,5 +334,45 @@ nav a:hover {
         padding-right: 10px;
         color:#0065FC;
     }
+
+}
+
+
+
+/* Section Research Tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #Topsection{
+        padding-left: 70px;
+        padding-right: 70px;
+        height: 305px;
+        width: 100%;
+        padding-bottom: 39px;
+    }
+
+    #Filtersbar{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .FilterButton {
+        height:50px;
+        display:flex;
+        align-items: center;
+        padding-left: 15px;
+        margin-left: 4px;
+        font-size: 16px;
+    }
+
+    .FilterButton i {
+        padding-right: 6px;
+    }
+
+    #Searchbar{
+        Display:flex;
+        justify-content: left;
+    }
+
 
 }
