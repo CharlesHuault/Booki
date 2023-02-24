@@ -176,7 +176,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     height: 49px;
-    justify-content: center;
+    justify-content: left;
 
 }
 
@@ -281,6 +281,11 @@ nav a:hover {
 
     #Searchbar{
         width:332px;
+        #Searchbar{
+            Display:flex;
+            justify-content: center;
+        }
+    
     }
 
     .Search{
@@ -368,11 +373,4 @@ nav a:hover {
     .FilterButton i {
         padding-right: 6px;
     }
-
-    #Searchbar{
-        Display:flex;
-        justify-content: left;
-    }
-
-
 }
