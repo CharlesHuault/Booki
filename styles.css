@@ -24,18 +24,26 @@ h2 {
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-size: 14px;
     font-weight: 400;
 }
 
+/* Propriétés Générales Mobile */
+@media screen and (max-width: 767px) {
+    body {
+        max-width: 375px;
+        margin: auto;
+    }
+}
 
 
 /* Propriétés Générales Tablette */
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     body {
-        max-width: 1024px;
+        max-width: 991px;
+        margin: auto;
     }
 }
 
@@ -138,7 +146,7 @@ nav a:hover {
 }
 
 /* Header Tablette */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     #header img {
         height: 19px;
     }
@@ -233,7 +241,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:880px;
+    width: 880px;
     height: 50px;
     font-weight: 700;
     font-size: 18px;
@@ -248,7 +256,7 @@ nav a:hover {
     font-size: 17px;
     height: 100%;
     align-items: center;
-    }
+}
 
 #FiltersBar i {
     color: #0065FC;
@@ -283,7 +291,7 @@ nav a:hover {
 
 @media screen and (max-width: 767px) {
     #Topsection {
-        max-width: 375px;
+        width: 100%;
         height: 504px;
         margin-top: 30px;
         padding-left: 20px;
@@ -292,13 +300,10 @@ nav a:hover {
 
     #Searchbar {
         width: 332px;
-
-        #Searchbar {
-            Display: flex;
-            justify-content: center;
-        }
-
+        Display: flex;
+        justify-content: center;
     }
+
 
     .Search {
         width: 232px;
@@ -321,7 +326,9 @@ nav a:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        width: 100%;
         height: 153px;
+        padding-right: 20px;
     }
 
     .Filtres {
@@ -358,47 +365,52 @@ nav a:hover {
 
 /* Section Research Tablette*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
 
     #Topsection {
         padding-left: 70px;
         padding-right: 70px;
         height: 305px;
-        width: 100%;
+        width: 883px;
         padding-bottom: 39px;
     }
 
     #Filtersbar {
-        display: flex;
-        justify-content: space-between;
+        height: 50px;
+        padding-right: 300px;
     }
 
     .FilterButton {
         height: 50px;
+        width: auto;
         display: flex;
         align-items: center;
         padding-left: 15px;
-        margin-left: 4px;
+        margin-left: 10px;
         font-size: 16px;
     }
 
     .FilterButton i {
         padding-right: 6px;
     }
+
+    .FilterButton:hover {
+        background-color: #DEEBFF;
+    }
 }
 
 
 /* Bloc Main Desktop*/
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.Titre{
+.Titre {
     display: flex;
-    align-items:end;
+    align-items: end;
     padding-left: 30px;
     padding-right: 40px;
     flex: 0.3;
@@ -429,20 +441,21 @@ main{
     width: 100%;
     justify-content: space-around;
     align-content: space-around;
-    flex:1.7;
+    flex: 1.7;
     margin-top: 10px;
 }
 
 
 
-#Afficher{
+#Afficher {
     padding-left: 30px;
     flex: 0.3;
     font-weight: 700;
     font-size: 18px;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
+
 .BlocRésHéber {
     display: flex;
     width: 246px;
@@ -455,7 +468,7 @@ main{
 }
 
 .PhotoCanebière {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
@@ -463,35 +476,35 @@ main{
 
 
 .PhotoPort {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
 }
 
 .PhotoMouettes {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
 }
 
 .PhotoMer {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
 }
 
 .PhotoPanier {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
 }
 
 .PhotoAmina {
-    height: 124px;    
+    height: 124px;
     background-image: url(/Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
     background-size: 100% 100%;
@@ -504,93 +517,162 @@ main{
     flex-direction: row;
 }
 
-.Etoile1{
+.Etoile1 {
     color: #0065FC;
 }
 
-.Etoile2{
+.Etoile2 {
     color: #0065FC;
 }
 
-.Etoile3{
+.Etoile3 {
     color: #0065FC;
 }
 
-.Etoile4{
+.Etoile4 {
     color: #0065FC;
 }
 
-.Etoile5{
+.Etoile5 {
     color: #F2F2F2;
 }
 
 /*Article Populaires*/
 
-#RésultatPopulaires{
-    display:flex;
-    height:626px;
-    width:420px;
+#RésultatPopulaires {
+    display: flex;
+    height: 626px;
+    width: 420px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 40px;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 35px ;
+    padding-bottom: 35px;
     padding-top: 45px;
 }
 
-#RésultatPopulaires .BlocRésHéber{
+#RésultatPopulaires .BlocRésHéber {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 144px;
-    width:80%;
-    margin-left: 40px ;
-    margin-top: 30px ;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
-#RésultatPopulaires .Titre{
-    margin-left: 10px ;
+#RésultatPopulaires .Titre {
+    margin-left: 10px;
 }
 
 .Titre i {
     color: #0065FC;
 }
 
-.TextePop{
+.TextePop {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 206px;
     justify-content: space-between;
-    margin-left: 15px ;
+    margin-left: 15px;
     margin-top: 16px;
     margin-right: 22px;
 }
 
-.TextePop h3{
-    margin-bottom: 44px ;
+.TextePop h3 {
+    margin-bottom: 44px;
 }
 
-.PhotoSoleil{
+.PhotoSoleil {
     width: 137px;
-    background-image: url(/Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) ;
+    background-image: url(/Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
 }
 
-.PhotoEau{
+.PhotoEau {
     width: 137px;
-    background-image: url(/Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) ;
+    background-image: url(/Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
 }
 
-.PhotoBleu{
+.PhotoBleu {
     width: 137px;
-    background-image: url(/Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) ;
+    background-image: url(/Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
 }
 
 
+/* Bloc Main Mobile */
+
+@media screen and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #RésultatPopulaires {
+        display: flex;
+        align-items: stretch;
+        width: 375px;
+        height: 580px;
+        border-radius: 0 0 0 0;
+        margin-top: 20px;
+        padding-bottom: 47px;
+        padding-top: 28px;
+    }
+
+    #RésultatPopulaires .BlocRésHéber {
+        width: 334px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #RésultatPopulaires .Titre {
+        font-size: 22px;
+        font-weight: 700;
+
+    }
+
+    #RésultatHébergement {
+        display: flex;
+        height: 1430px;
+        width: 375px;
+        margin-left: 0;
+        margin-top: 0;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+    }
+
+    #RésultatHébergement .Titre {
+        margin-top: 0px;
+    }
+
+    #ListeHébergement {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .BlocRésHéber {
+        width: 334px;
+        margin-top: 12px;
+    }
+
+}
+
+
+/* Bloc Main Tablette */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        max-width: 883px;
+    }
+}
