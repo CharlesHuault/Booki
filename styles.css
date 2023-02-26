@@ -233,21 +233,26 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:880px;
     height: 50px;
     font-weight: 700;
     font-size: 18px;
 }
 
 .FilterButton {
+    display: flex;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 4px 15px;
     font-weight: 700;
     font-size: 17px;
-}
+    height: 100%;
+    align-items: center;
+    }
 
 #FiltersBar i {
     color: #0065FC;
+    padding-right: 10px;
 }
 
 .FilterButton:hover {
@@ -385,6 +390,24 @@ nav a:hover {
 
 /* Bloc Main Desktop*/
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Titre{
+    display: flex;
+    align-items:end;
+    padding-left: 30px;
+    padding-right: 40px;
+    flex: 0.3;
+    justify-content: space-between;
+}
+
+
+
+
 /*Article Hébergements*/
 
 #RésultatHébergement {
@@ -410,12 +433,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.Titre{
-    display: flex;
-    align-items:end;
-    padding-left: 30px;
-    flex: 0.3;
-}
+
 
 #Afficher{
     padding-left: 30px;
@@ -505,4 +523,74 @@ nav a:hover {
 .Etoile5{
     color: #F2F2F2;
 }
+
+/*Article Populaires*/
+
+#RésultatPopulaires{
+    display:flex;
+    height:626px;
+    width:420px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 35px ;
+    padding-top: 45px;
+}
+
+#RésultatPopulaires .BlocRésHéber{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 144px;
+    width:80%;
+    margin-left: 40px ;
+    margin-top: 30px ;
+}
+
+#RésultatPopulaires .Titre{
+    margin-left: 10px ;
+}
+
+.Titre i {
+    color: #0065FC;
+}
+
+.TextePop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 206px;
+    justify-content: space-between;
+    margin-left: 15px ;
+    margin-top: 16px;
+    margin-right: 22px;
+}
+
+.TextePop h3{
+    margin-bottom: 44px ;
+}
+
+.PhotoSoleil{
+    width: 137px;
+    background-image: url(/Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.PhotoEau{
+    width: 137px;
+    background-image: url(/Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.PhotoBleu{
+    width: 137px;
+    background-image: url(/Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) ;
+    background-size: 100% 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
 
