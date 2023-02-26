@@ -40,9 +40,9 @@ h3 {
 
 /* Propriétés Générales Tablette */
 
-@media screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
-        max-width: 991px;
+        width: 100%;
         margin: auto;
     }
 }
@@ -146,7 +146,7 @@ nav a:hover {
 }
 
 /* Header Tablette */
-@media screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     #header img {
         height: 19px;
     }
@@ -365,19 +365,19 @@ nav a:hover {
 
 /* Section Research Tablette*/
 
-@media screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
     #Topsection {
-        padding-left: 70px;
-        padding-right: 70px;
         height: 305px;
         width: 883px;
         padding-bottom: 39px;
+        margin-right: 100px;
     }
 
-    #Filtersbar {
-        height: 50px;
-        padding-right: 300px;
+    #FiltersBar {
+        display: flex;
+        justify-content: space-around;
+        width: 730px;
     }
 
     .FilterButton {
@@ -672,7 +672,59 @@ main {
 /* Bloc Main Tablette */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    main {
-        max-width: 883px;
+
+    #RésultatHébergement{
+        margin-top: 0;
+        width: 880px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+
+    #RésultatHébergement .BlocRésHéber{
+        width: 246px;
+    }
+
+    #RésultatPopulaires{
+        display: flex;
+        justify-content: space-around;
+        width: 880px;
+        height: 278px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #ListePopulaires{
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+
+    #RésultatPopulaires .BlocRésHéber{
+        width: 38%;
+        height:auto;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #ListePopulaires .TextePop{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-left: 1px;
+        margin-right: 0;
+        width: 60%;
+    }
+
+    #RésultatPopulaires h2{
+        font-size: 14px;
+    }
+
+    #RésultatPopulaires h3{
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
 }
