@@ -1003,3 +1003,34 @@ footer ul {
 .List li {
     margin-bottom: 12px;
 }
+
+
+/* Footer Mobile */
+
+
+@media screen and (max-width: 767px){
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 375px;
+    margin: 80px 0 30px;
+    align-items: flex-start;
+
+}
+
+footer p {
+    width: 375px;
+}
+
+footer ul {
+    width: 375px;
+}
+
+.List {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+}
