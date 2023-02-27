@@ -959,3 +959,47 @@ main {
         padding-top: 20px;
     }
 }
+
+
+
+/* Footer Desktop */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height:220px ;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 60px;
+    background-color: #F2F2F2;
+    align-items: center;
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer ul {
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+}
+
+.List {
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    height: 100%; 
+    width: 26%;
+    margin-top: 90px;   
+    margin-left: 70px;
+}
+
+.List p {
+    margin-bottom: 20px;
+}
+
+.List li {
+    margin-bottom: 12px;
+}
