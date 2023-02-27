@@ -904,10 +904,10 @@ main {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #BlocActivités{
         width: 880px;
-        height: 470px;
+        height: 270px;
         margin-left: 20px;
         margin-right: 20px;
-
+        margin-bottom: 0px;
     }
 
     #BlocRésActivités{
@@ -1033,4 +1033,19 @@ footer ul {
     margin-top: 45px;
     margin-left: 30px;
 }
+}
+
+/* Footer Tablette */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   footer {
+    width:800px ;
+    margin-top: 70px;
+    margin-left: 20px;
+   }
+
+   footer ul {
+    width: 300px;
+   }
+    
 }
