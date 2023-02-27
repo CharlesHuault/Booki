@@ -710,6 +710,7 @@ main {
 
     #RésultatHébergement .BlocRésHéber {
         width: 246px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     }
 
     #RésultatPopulaires {
@@ -719,6 +720,10 @@ main {
         height: 278px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    #RésultatPopulaires .Titre{
+        margin-left: -15px;
     }
 
     #ListePopulaires {
@@ -734,6 +739,7 @@ main {
         height: 150px;
         margin-right: 5px;
         margin-left: 5px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     }
 
     #ListePopulaires .TextePop {
@@ -896,5 +902,60 @@ main {
 /*Bloc Activités Tablette */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    
+    #BlocActivités{
+        width: 880px;
+        height: 470px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    #BlocRésActivités{
+        display: flex;
+        width: 800px;
+    }
+
+    .BlocActivité{
+        width: 180px;
+        height: 270px;
+    }
+
+    #BlocImageVieuxPort{
+        width: 100%;
+        height: 250px;
+        background-size:  auto 100% ;
+        background-position: center center;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #BlocImagePomègues{
+        width: 100%;
+        height: 250px;
+        background-size:  100% auto ;
+        background-position: center center;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    #BlocImageCalanques{
+        width: 100%;
+        height: 250px;
+        background-size:  auto 100% ;
+        background-position: center center;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    #BlocImageGarde{
+        width: 100%;
+        height: 250px;
+        background-size:  auto 100% ;
+        background-position: center center;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .NomRésultat{
+        height: 50px;       
+        padding-top: 20px;
+    }
 }
