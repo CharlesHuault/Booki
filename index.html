@@ -22,8 +22,8 @@
                 <nav>
 
 
-                    <a href=“#Héberg”>Hébergements</a>
-                    <a href="#Act">Activités</a>
+                    <a href="#RésultatHébergement">Hébergements</a>
+                    <a href="#BlocActivités">Activités</a>
 
 
                 </nav>
@@ -46,13 +46,13 @@
 
                     <div id="Searchbar">
                         <div id="LocLogo"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
-                        <form>
-                            <input type="search" value="Marseille, France" class="Search" />
+                        <form method="get" action="">
+                            <input type="search" placeholder="Marseille, France" class="Search" />
+                        
+                            <button id="SearchButton">                            
+                                <p> <div id="Rechercher">Rechercher</div><i class="fa-solid fa-magnifying-glass"></i></p>
+                            </button>
                         </form>
-                        <button id="SearchButton">
-                            <p>
-                            <div id="Rechercher">Rechercher</div><i class="fa-solid fa-magnifying-glass"></i></p>
-                        </button>
                     </div>
 
                     <div id="FiltersBar">
@@ -80,7 +80,7 @@
 
                     <article id="RésultatHébergement">
                         <div class="Titre">
-                            <h1 id="Héberg"> Hébergements à Marseille</h1>
+                            <h1> Hébergements à Marseille</h1>
                         </div>
 
                         <div id="ListeHébergement">
