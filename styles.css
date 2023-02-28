@@ -202,7 +202,7 @@ nav a:hover {
     border-radius: 15px 0px 0px 15px;
 }
 
-form{
+form {
     display: flex;
 }
 
@@ -422,6 +422,10 @@ main {
     justify-content: space-between;
 }
 
+main a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -473,7 +477,7 @@ main {
 }
 
 
-.TexteHeberg{
+.TexteHeberg {
     display: flex;
     flex-direction: column;
     height: 75px;
@@ -486,8 +490,9 @@ main {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 
@@ -495,40 +500,45 @@ main {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 .PhotoMouettes {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 .PhotoMer {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 .PhotoPanier {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 .PhotoAmina {
     height: 124px;
     background-image: url(/Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     border-radius: 20px 20px 0px 0px;
-    background-size:  100% auto;
+    background-size: 100% auto;
     background-position: center center;
+    border-top: 5px solid #FFFFFF;
 }
 
 
@@ -536,6 +546,7 @@ main {
 .NoteRésultat {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .Etoile1 {
@@ -568,19 +579,32 @@ main {
     border-radius: 20px;
     margin-top: 40px;
     flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 35px;
+    justify-content: space-between;    
     padding-top: 45px;
 }
 
-#RésultatPopulaires .BlocRésHéber {
+#RésPopu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 10px;
+}
+
+#RésultatPopulaires .BlocRésPop {
+    display: flex;
     justify-content: center;
-    height: 144px;
+    height: 154px;
     width: 340px;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-bottom: 30px ;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.BlocRésPop a {
+    width:340px;
+    display: flex;
 }
 
 #RésultatPopulaires .Titre {
@@ -591,15 +615,16 @@ main {
     color: #0065FC;
 }
 
+
 .TextePop {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 206px;
+    width: 200px;
+    height: auto;
     justify-content: space-between;
     margin-left: 15px;
     margin-top: 10px;
-    margin-right: 22px;
+    margin-right: 20px;
 }
 
 
@@ -610,27 +635,36 @@ main {
 }
 
 .PhotoSoleil {
+    height: 154px;
     width: 137px;
     background-image: url(/Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: auto 100%;
     background-position: center center;
     border-radius: 20px 0px 0px 20px;
+    margin-top: 0px;
+    border: 5px solid #FFFFFF;
 }
 
 .PhotoEau {
+    height: 154px;
     width: 137px;
     background-image: url(/Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: auto 100%;
     background-position: center center;
     border-radius: 20px 0px 0px 20px;
+    margin-top: 0px;
+    border: 5px solid #FFFFFF;
 }
 
 .PhotoBleu {
+    height: 154px;
     width: 137px;
     background-image: url(/Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: 100% auto;
     background-position: center center;
     border-radius: 20px 0px 0px 20px;
+    margin-top: 0px;
+    border: 5px solid #FFFFFF;
 }
 
 
@@ -646,14 +680,14 @@ main {
         display: flex;
         align-items: stretch;
         width: 375px;
-        height: 580px;
+        height: auto;
         border-radius: 0 0 0 0;
         margin-top: 20px;
         padding-bottom: -50px;
         padding-top: 28px;
     }
 
-    #RésultatPopulaires .BlocRésHéber {
+    #RésultatPopulaires .BlocRésPop {
         width: 334px;
         margin-top: 20px;
         margin-right: 20px;
@@ -664,6 +698,7 @@ main {
     #RésultatPopulaires .Titre {
         font-size: 22px;
         font-weight: 700;
+        margin-left: -10px;
 
     }
 
@@ -687,13 +722,19 @@ main {
 
     }
 
-    .BlocRésHéber {
+    .BlocRésHéber{
         width: 334px;
         margin-top: 12px;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     }
 
-    #Afficher{
+    .BlocRésPop {
+        width: 334px;
+        margin-top: 12px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    #Afficher {
         display: none;
     }
 
@@ -725,7 +766,7 @@ main {
         margin-right: 20px;
     }
 
-    #RésultatPopulaires .Titre{
+    #RésultatPopulaires .Titre {
         margin-left: -15px;
     }
 
@@ -733,7 +774,7 @@ main {
         display: flex;
         flex-direction: row;
         width: 700px;
-        justify-content:center;
+        justify-content: center;
         margin-left: 40px;
     }
 
@@ -770,14 +811,21 @@ main {
 
 /* Bloc Activités Desktop */
 
-#BlocActivités{
+#BlocActivités {
     height: 500px;
     margin-top: 60px;
     margin-left: 50px;
 
 }
 
-#BlocRésActivités{
+
+#BlocActivités a {
+    text-decoration: none;
+    color: black;    
+}
+
+
+#BlocRésActivités {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -795,7 +843,7 @@ main {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
-#BlocImageVieuxPort{
+#BlocImageVieuxPort {
     height: 390px;
     width: 300px;
     background-image: url(/Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
@@ -803,7 +851,7 @@ main {
     border-radius: 20px 20px 0 0;
 }
 
-#BlocImagePomègues{
+#BlocImagePomègues {
     height: 390px;
     width: 300px;
     background-image: url(/Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
@@ -811,7 +859,7 @@ main {
     border-radius: 20px 20px 0 0;
 }
 
-#BlocImageCalanques{
+#BlocImageCalanques {
     height: 390px;
     width: 300px;
     background-image: url(/Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
@@ -819,7 +867,7 @@ main {
     border-radius: 20px 20px 0 0;
 }
 
-#BlocImageGarde{
+#BlocImageGarde {
     height: 390px;
     width: 300px;
     background-image: url(/Images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
@@ -829,83 +877,99 @@ main {
 }
 
 
-.NomRésultat{
+.NomRésultat {
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 /*Bloc Activités Mobile */
 
-@media screen and (max-width: 767px){
-    #TitreActivités{
+@media screen and (max-width: 767px) {
+    #TitreActivités {
         margin-left: 20px;
         margin-top: 50px;
-        width:120px;
-        margin-bottom: -30px;
+        width: 120px;
+        margin-bottom: 0px;
     }
 
     #BlocActivités {
         width: 375px;
         height: auto;
-        margin-left: 0;
+        margin-left: 20px;
         margin-top: 0;
         background-color: #FFFFFF;
     }
 
-    #BlocRésActivités{
+    #BlocRésActivités {
         display: flex;
-        flex-direction: column;        
-          
+        flex-direction: column;
     }
 
-    .BlocActivité {
+    .BlocActivité{
+        height: 190px;
+        width: 334px;
+        margin-bottom: 20px;
+    }
+    .BlocActivité a {
+        display: flex;
+        flex-direction: column;
         height: 190px;
         width: 334px;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
+        
     }
 
-    #BlocImageVieuxPort{
-        width: 100%;
-        background-size:  100% auto;
+    #BlocImageVieuxPort {
+        width: 334px;
+        height: 134px;
+        background-size: 100% auto;
         background-position: center center;
         border-radius: 20px 20px 0 0;
+        margin: -20px;
     }
 
-    #BlocImagePomègues{
+    #BlocImagePomègues {
         width: 100%;
-        background-size:  100% auto;
+        height: 134px;
+        background-size: 100% auto;
         background-position: center center;
         border-radius: 20px 20px 0 0;
+        margin: -20px;
     }
 
 
-    #BlocImageCalanques{
+    #BlocImageCalanques {
         width: 100%;
-        background-size:  100% auto;
+        height: 134px;
+        background-size: 100% auto;
         background-position: center center;
         border-radius: 20px 20px 0 0;
+        margin: -20px;
     }
 
 
-    #BlocImageGarde{
+    #BlocImageGarde {
         width: 100%;
-        background-size:  100% auto;
+        height: 134px;
+        background-size: 100% auto;
         background-position: center center;
         border-radius: 20px 20px 0 0;
+        margin: -20px;
     }
 
-    .NomRésultat{
-        margin-top: 20px;
+    .NomRésultat {
+        padding-top: 20px;
+        margin-left: 0;
     }
 }
 
 /*Bloc Activités Tablette */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #BlocActivités{
+    #BlocActivités {
         width: 880px;
         height: 270px;
         margin-left: 20px;
@@ -913,52 +977,52 @@ main {
         margin-bottom: 0px;
     }
 
-    #BlocRésActivités{
+    #BlocRésActivités {
         display: flex;
         width: 800px;
     }
 
-    .BlocActivité{
+    .BlocActivité {
         width: 180px;
         height: 270px;
     }
 
-    #BlocImageVieuxPort{
+    #BlocImageVieuxPort {
         width: 100%;
         height: 250px;
-        background-size:  auto 100% ;
+        background-size: auto 100%;
         background-position: center center;
         border-radius: 20px 20px 0 0;
     }
 
-    #BlocImagePomègues{
+    #BlocImagePomègues {
         width: 100%;
         height: 250px;
-        background-size:  100% auto ;
-        background-position: center center;
-        border-radius: 20px 20px 0 0;
-    }
-
-
-    #BlocImageCalanques{
-        width: 100%;
-        height: 250px;
-        background-size:  auto 100% ;
+        background-size: 100% auto;
         background-position: center center;
         border-radius: 20px 20px 0 0;
     }
 
 
-    #BlocImageGarde{
+    #BlocImageCalanques {
         width: 100%;
         height: 250px;
-        background-size:  auto 100% ;
+        background-size: auto 100%;
         background-position: center center;
         border-radius: 20px 20px 0 0;
     }
 
-    .NomRésultat{
-        height: 50px;       
+
+    #BlocImageGarde {
+        width: 100%;
+        height: 250px;
+        background-size: auto 100%;
+        background-position: center center;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .NomRésultat {
+        height: 50px;
         padding-top: 20px;
     }
 }
@@ -970,7 +1034,7 @@ main {
 footer {
     display: flex;
     flex-direction: row;
-    height:220px ;
+    height: 220px;
     width: auto;
     margin-left: 50px;
     margin-top: 60px;
@@ -991,11 +1055,11 @@ footer ul {
 
 .List {
     display: flex;
-    justify-content:flex-start ;
+    justify-content: flex-start;
     flex-direction: column;
-    height: 100%; 
+    height: 100%;
     width: 26%;
-    margin-top: 90px;   
+    margin-top: 90px;
     margin-left: 70px;
 }
 
@@ -1011,44 +1075,44 @@ footer ul {
 /* Footer Mobile */
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
 
-footer {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 375px;
-    margin: 80px 0 30px;
-    align-items: flex-start;
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 375px;
+        margin: 80px 0 30px;
+        align-items: flex-start;
 
-}
+    }
 
-footer p {
-    width: 375px;
-}
+    footer p {
+        width: 375px;
+    }
 
-footer ul {
-    width: 375px;
-}
+    footer ul {
+        width: 375px;
+    }
 
-.List {
-    margin-top: 45px;
-    margin-left: 30px;
-}
+    .List {
+        margin-top: 45px;
+        margin-left: 30px;
+    }
 }
 
 /* Footer Tablette */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-   footer {
-    width:800px ;
-    margin-top: 70px;
-    margin-left: 20px;
-   }
+    footer {
+        width: 800px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
 
-   footer ul {
-    width: 300px;
-   }
-    
+    footer ul {
+        width: 300px;
+    }
+
 }
