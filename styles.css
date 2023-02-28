@@ -764,29 +764,29 @@ main a {
         height: 278px;
         margin-left: 20px;
         margin-right: 20px;
+        margin top
     }
 
     #RésultatPopulaires .Titre {
-        margin-left: -15px;
+        margin-left: -10px;
     }
 
-    #ListePopulaires {
+    #RésPopu {
         display: flex;
         flex-direction: row;
-        width: 700px;
-        justify-content: center;
-        margin-left: 40px;
+        width: 800px;
+        margin-left: -20px;
     }
 
     #RésultatPopulaires .BlocRésHéber {
-        width: 38%;
+        width: 250px;
         height: 150px;
         margin-right: 5px;
         margin-left: 5px;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     }
 
-    #ListePopulaires .TextePop {
+    #RésPopu .TextePop {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -971,7 +971,7 @@ main a {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #BlocActivités {
         width: 880px;
-        height: 270px;
+        height: 300px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 0px;
@@ -984,7 +984,7 @@ main a {
 
     .BlocActivité {
         width: 180px;
-        height: 270px;
+        height: 300px;
     }
 
     #BlocImageVieuxPort {
@@ -1022,8 +1022,10 @@ main a {
     }
 
     .NomRésultat {
-        height: 50px;
-        padding-top: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 8px;
     }
 }
 
