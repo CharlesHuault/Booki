@@ -1,0 +1,89 @@
+/* Footer Desktop */
+
+footer {
+    display: flex;
+    flex-direction: row;    
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+
+#Footer {
+    display: flex;
+    flex-direction: row; 
+    width: 95.50%;
+    height: 11%;
+    background-color: #F2F2F2;    
+}
+
+
+footer p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer ul {
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+}
+
+.List {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 27%;
+    margin-top: 45px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.List p {
+    margin-bottom: 20px;
+}
+
+.List li {
+    margin-bottom: 12px;
+}
+
+
+/* Footer Tablette */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    footer {
+        width: 800px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    footer ul {
+        width: 300px;
+    }
+
+}
+
+
+/* Footer Mobile */
+
+
+@media screen and (max-width: 767px) {
+
+
+    footer {
+        height: 500px;
+        margin-left: 0;
+    }
+
+    #Footer {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .List {
+        margin-top: 9%;
+        margin-bottom: 0;
+        margin-left: 8%;
+        width: 51%;
+    }
+}

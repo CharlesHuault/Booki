@@ -4,10 +4,17 @@
 <head>
     <title>Booki</title>
     <script src="https://kit.fontawesome.com/2e1a7fc042.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/Header.css" />
+    <link rel="stylesheet" href="/css/Section Search.css" />
+    <link rel="stylesheet" href="/css/Résultats Hébergements.css" />
+    <link rel="stylesheet" href="/css/Résultats Populaires.css" />
+    <link rel="stylesheet" href="/css/Section Activités.css" />
+    <link rel="stylesheet" href="/css/Footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 
@@ -22,8 +29,8 @@
                 <nav>
 
 
-                    <a href="#RésultatHébergement">Hébergements</a>
-                    <a href="#BlocActivités">Activités</a>
+                    <a href="#RésultatHébergement" id="LienHéb">Hébergements</a>
+                    <a href="#BlocActivités" id="LienAct">Activités</a>
 
 
                 </nav>
@@ -49,9 +56,9 @@
                         <form method="get" action="">
                             <input type="search" placeholder="Marseille, France" class="Search" />
                         
-                            <button id="SearchButton">                            
+                            <div id="SearchButton"><button>                            
                                 <p> <div id="Rechercher">Rechercher</div><i class="fa-solid fa-magnifying-glass"></i></p>
-                            </button>
+                            </button></div>
                         </form>
                     </div>
 
@@ -71,6 +78,8 @@
                     </div>
                 </div>
             </section>
+
+            <! Bloc Résultats>
 
 
             <main>
@@ -366,6 +375,7 @@
                 <! Footer>
 
                     <footer>
+                    <div id="Footer">
 
                         <div class="List">
                             
@@ -397,7 +407,7 @@
                                 </ul>
                             
                         </div>
-
+                    </div>
                     </footer>
 
 </body>

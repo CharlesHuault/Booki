@@ -1,0 +1,37 @@
+/* Propriétés Générales Desktop */
+
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+

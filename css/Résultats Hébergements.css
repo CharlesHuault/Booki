@@ -1,0 +1,219 @@
+/* Bloc Main Desktop*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95.71%;
+}
+
+.Titre {
+    display: flex;
+    align-items: end;
+    padding-left: 30px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Article Hébergements*/
+
+#RésultatHébergement {
+    display: flex;
+    width: 62.86%;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#RésultatHébergement .Titre {
+    margin-top: 6%;
+}
+
+#ListeHébergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 10px;
+}
+
+
+
+#Afficher {
+    padding-left: 30px;
+    flex: 0.3;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.BlocRésHéber {
+    display: flex;
+    width: 27.95%;
+    height: auto;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.TexteHeberg {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    margin-left: 16px;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.PhotoCanebière {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+
+.PhotoPort {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+.PhotoMouettes {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+.PhotoMer {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+.PhotoPanier {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+.PhotoAmina {
+    height: 124px;
+    background-image: url(/Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100% auto;
+    background-position: center center;
+    border: 5px solid #FFFFFF;
+}
+
+
+
+.NoteRésultat {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Etoile1 {
+    color: #0065FC;
+}
+
+.Etoile2 {
+    color: #0065FC;
+}
+
+.Etoile3 {
+    color: #0065FC;
+}
+
+.Etoile4 {
+    color: #0065FC;
+}
+
+.Etoile5 {
+    color: #F2F2F2;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #RésultatHébergement {
+        margin-top: 0;
+        width: 880px;
+       
+        margin-right: 20px;
+    }
+
+    #RésultatHébergement .BlocRésHéber {
+        width: 246px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 30%;
+    }
+
+    
+    #RésultatHébergement {
+        display: flex;
+        height: auto;
+        width: 375px;
+        margin-left: 0;
+        margin-top: 20px;
+        background-color: #FFFFFF;
+    }
+
+    #RésultatHébergement .Titre {
+        padding-left: 5%;
+    }
+
+    #RésultatHébergement .BlocRésHéber {
+        width: 89%;
+        margin-top: 12px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    }
+
+
+        
+
+}
