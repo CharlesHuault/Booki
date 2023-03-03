@@ -171,7 +171,6 @@ form {
 
 @media screen and (max-width: 767px) {
     #Topsection {
-        width: 100%;
         height: auto;
         margin-top: 30px;
         padding-left: 0px;
@@ -184,17 +183,12 @@ form {
     }
 
     #Searchbar {
-        width: 332px;
         margin-bottom: 7%;
         margin-top: 7%;
     }
 
-    #LocLogo{
-        width: 15.06%;
-    }
-
-    .Search {
-        width: 232px;
+    form {
+        width: auto;
     }
 
     #SearchButton {

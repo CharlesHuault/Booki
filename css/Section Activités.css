@@ -134,22 +134,16 @@
     }
 
     #BlocActivités {
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-        height: auto;
-        margin-left: 0;
         margin-right: 0;
     }
 
     #BlocRésActivités {
         flex-direction: column;
         align-items: center;
-        width:100%;
+        height: auto;
     }
 
     .BlocActivité{
-        height: 100%;
         width: 89%;
         margin-bottom: 20px;
     }
@@ -160,32 +154,34 @@
     }
 
     #BlocImageVieuxPort {
-        height: 140px;
+        height: 134px;
         background-size: 100% auto;
-        background-position: top;
+        background-position: 50% 15%;
     }
 
     #BlocImagePomègues {
-        height: 140px;
+        height: 134px;
         background-size: 100% auto;
+        background-position: 50% 42%;
     }
 
 
     #BlocImageCalanques {
-        height: 140px;
+        height: 134px;
         background-size: 100% auto;
-        background-position: top;
+        background-position: 50% 15%;
     }
 
 
     #BlocImageGarde {
-        height: 140px;
+        height: 134px;
         background-size: 100% auto;
-        background-position: top;
+        background-position: 50% 15%;
     }
 
     .NomRésultat {
         padding-bottom: 3%;
-        margin-left: 5%;
+        padding-top: 3%;
+        margin-left: 0%;
     }
 }
