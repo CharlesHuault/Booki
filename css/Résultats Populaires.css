@@ -88,7 +88,7 @@
     height: 100%;
     width: 41.18%;
     background-image: url(/Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-position: center center;
     border-radius: 20px 0px 0px 20px;
     margin-top: 0px;
@@ -101,47 +101,47 @@
 @media screen and (max-width: 991px) {
 
     #RésultatPopulaires {
-        display: flex;
-        justify-content: space-around;
-        width: 880px;
-        height: 600px;
+        width: auto;
+        margin-left: 2%;
+        margin-right: 2%;
           
     }
 
     #RésultatPopulaires .Titre {
-        margin-left: -10px;
+        margin-top: 3%;
+        margin-right: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     #RésPopu {
-        width: 800px;
-        margin-left: -20px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 3%;
+        flex-direction: row;
     }
 
     #RésultatPopulaires .BlocRésPop {
-        width: 250px;
         height: 150px;
-        margin-right: 5px;
         margin-left: 5px;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     }
 
     #RésPopu .TextePop {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        margin-left: 10px;
+        margin-left: 6%;
         margin-right: 0;
-        width: 55%;
+        margin-top: 5%;
+        width: 50%;
+        
     }
 
     #RésultatPopulaires h2 {
         font-size: 14px;
+        padding-right: 10%;
     }
 
     #RésultatPopulaires h3 {
         font-size: 12px;
-        padding-top: 3px;
     }
 
 }
