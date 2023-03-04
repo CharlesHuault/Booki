@@ -63,6 +63,7 @@ form {
     font-size: 18px;
     color: white;
     border-style: solid;
+    cursor:pointer;
 }
 
 #SearchButton i {
@@ -173,8 +174,8 @@ form {
     #Topsection {
         height: auto;
         margin-top: 30px;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 20px;
+        padding-right: 20px;
         width: auto;    
         padding-bottom: 0%;    
     }    
@@ -186,8 +187,8 @@ form {
     }
 
     #Searchbar {
-        margin-bottom: 7%;
-        margin-top: 7%;
+        margin-bottom: 35px;
+        margin-top: 35px;
         width: 100%;
     }
 
@@ -217,7 +218,7 @@ form {
         flex-wrap: wrap;
         width: 100%;
         height: auto;
-        padding-bottom: 7%;
+        padding-bottom: 40px;
         padding-right: 0%;
         justify-content: space-around;
     }
@@ -226,14 +227,14 @@ form {
         font-weight: 700;
         font-size: 18px;
         width: 100%;
-        margin-bottom: 2.60%;
+        margin-bottom: 15px;
     }
 
 
     .FilterButton {
         width: 47.67%;
         font-size: 11px;  
-        margin-bottom: 2.60%;
+        margin-bottom: 15px;
         min-height: 50px;   
     }
 

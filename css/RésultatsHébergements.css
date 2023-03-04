@@ -37,7 +37,7 @@ main a {
 }
 
 #RésultatHébergement .Titre {
-    margin-top: 6%;
+    margin-top: 42px;
 }
 
 #ListeHébergement {
@@ -59,15 +59,15 @@ main a {
     font-size: 18px;
     display: flex;
     align-items: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .BlocRésHéber {
     display: flex;
     width: 27.95%;
     height: auto;
-    margin-top: 4%;
+    margin-top: 30px;
     background-color: white;
     border-radius: 20px;
     flex-direction: column;
@@ -167,6 +167,8 @@ main a {
 }
 
 
+/* Bloc Hébergements Tablette */
+
 @media screen and (max-width: 991px) {
 
     main {
@@ -196,7 +198,7 @@ main a {
     }
 }
 
-
+/* Bloc Hébergements Mobile */
 
 @media screen and (max-width: 767px) {
     main {

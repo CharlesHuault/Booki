@@ -8,7 +8,7 @@
 }
 
 #header img {
-    padding-left: 3.93%;
+    padding-left: 55px;
     height: 29px;
 }
 
@@ -18,7 +18,6 @@ nav {
     padding-right: 77px;
     display: flex;
     height: 100%;
-    top: 48px;
     align-items: center;
 }
 
@@ -51,7 +50,6 @@ nav a:hover {
 
     #header img {
         height: 19px;
-        padding-left: 55PX;
     }
 
 
