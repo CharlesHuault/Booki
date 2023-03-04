@@ -55,13 +55,10 @@ form {
 }
 
 #SearchButton button{
-    display: flex;
-    width: 35%;
+    width: 100%;
     background-color: #0065FC;
     border-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
-    align-items: center;
-    justify-content: center;
     font-weight: 700;
     font-size: 18px;
     color: white;
@@ -73,6 +70,9 @@ form {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+#SearchButton span{
     display: none;
 }
 
@@ -173,34 +173,43 @@ form {
     #Topsection {
         height: auto;
         margin-top: 30px;
-        padding-left: 0px;
-        margin-left: 5%;        
+        padding-left: 5%;
+        padding-right: 5%;
+        width: auto;    
+        padding-bottom: 0%;    
     }    
 
     #Topsection h1 {
         margin-bottom: 2.60%;
-        margin-right: 10%;
+        padding-right: 8%;
+        width: auto;
     }
 
     #Searchbar {
         margin-bottom: 7%;
         margin-top: 7%;
+        width: 100%;
     }
 
     form {
-        width: auto;
+        width: 100%;
+    }
+
+    .Search{
+        width: 100%;
     }
 
     #SearchButton {
         width: 50px;
     }
 
-    #Rechercher {
-        Display: none;
+    #SearchButton button {
+        font-size: 0px;
     }
 
-    #SearchButton i {
-        display: inline;
+    #SearchButton span {
+        font-size: 18px ;
+        display: inline-block;
     }
 
 
@@ -209,6 +218,8 @@ form {
         width: 100%;
         height: auto;
         padding-bottom: 7%;
+        padding-right: 0%;
+        justify-content: space-around;
     }
 
     .Filtres {
@@ -220,20 +231,21 @@ form {
 
 
     .FilterButton {
-        width: 42.67%;
-        font-size: 11px;
-        margin-left: -10px;
-        margin-right: 7%;   
-        margin-bottom: 2.60%;     
+        width: 47.67%;
+        font-size: 11px;  
+        margin-bottom: 2.60%;
+        min-height: 50px;   
+    }
+
+    
+    #FiltersBar i {
+        font-size: 20px;
     }
 
     .FilterButton:hover {
         background-color: #FFFFFF
     }
 
-    #infobar {
-        margin-right: 10%;
-    }
 
     #infobar i {
         padding-left: 10px;

@@ -207,8 +207,9 @@ main a {
     #RésultatHébergement {
         display: flex;
         height: auto;
-        width: 375px;
+        width: auto;
         margin-left: 0;
+        margin-right: 0;
         margin-top: 20px;
         background-color: #FFFFFF;
     }
@@ -216,6 +217,7 @@ main a {
     #ListeHébergement {
         justify-content: space-around;
         padding: 0%;
+        width: auto;
     }
 
     #RésultatHébergement .BlocRésHéber {
