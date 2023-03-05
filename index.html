@@ -1,414 +1,414 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Booki</title>
     <script src="https://kit.fontawesome.com/2e1a7fc042.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css" >
-    <link rel="stylesheet" href="css/Header.css" >
-    <link rel="stylesheet" href="css/SectionSearch.css" >
-    <link rel="stylesheet" href="css/RésultatsHébergements.css" >
-    <link rel="stylesheet" href="css/RésultatsPopulaires.css" >
-    <link rel="stylesheet" href="css/SectionActivités.css" >
-    <link rel="stylesheet" href="css/Footer.css" >
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/SectionSearch.css">
+    <link rel="stylesheet" href="css/RésultatsHébergements.css">
+    <link rel="stylesheet" href="css/RésultatsPopulaires.css">
+    <link rel="stylesheet" href="css/SectionActivités.css">
+    <link rel="stylesheet" href="css/Footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
 <body>
 
     <!-- HEADER -->
-        <header>
-            <div id="header">
-                <img src="Images/logo/Booki.png" alt="Logo Booki">
+    <header>
+        <div id="header">
+            <img src="Images/logo/Booki.png" alt="Logo Booki">
 
 
-                <nav>
+            <nav>
 
 
-                    <a href="#RésultatHébergement" id="LienHéb">Hébergements</a>
-                    <a href="#BlocActivités" id="LienAct">Activités</a>
+                <a href="#RésultatHébergement" id="LienHéb">Hébergements</a>
+                <a href="#BlocActivités" id="LienAct">Activités</a>
 
 
-                </nav>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+    <!-- Section Recherche-->
+
+    <section>
+        <div id="Topsection">
+
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+            <p>En plein centre-ville ou en pleine nature</p>
+
+
+            <div id="Searchbar">
+                <div id="LocLogo"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                <form method="get" action="">
+                    <input type="search" placeholder="Marseille, France" class="Search">
+
+                    <div id="SearchButton"><button>Rechercher<span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button></div>
+                </form>
+            </div>
+
+            <div id="FiltersBar">
+
+                <p class="Filtres">Filtres</p>
+                <p class="FilterButton"><i class="fa-sharp fa-solid fa-money-bill-wave"></i> Économique</p>
+                <p class="FilterButton"><i class="fa-solid fa-person"></i> Familial</p>
+                <p class="FilterButton"><i class="fa-sharp fa-solid fa-heart"></i> Romantique</p>
+                <p class="FilterButton"><i class="fa-solid fa-dog"></i> Animaux autorisés</p>
 
             </div>
-        </header>
+
+            <div id="infobar">
+                <i class="fa-solid fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloc Résultats-->
 
 
+    <main>
 
 
-        <!-- Section Recherche-->
+        <!-- Section Résultats Hébergement-->
 
-            <section>
-                <div id="Topsection">
+        <article id="RésultatHébergement">
+            <div class="Titre">
+                <h1> Hébergements à Marseille</h1>
+            </div>
 
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <div id="ListeHébergement">
 
-                    <p>En plein centre-ville ou en pleine nature</p>
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
+                        <div class="PhotoCanebière"></div>
 
-                    <div id="Searchbar">
-                        <div id="LocLogo"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
-                        <form method="get" action="">
-                            <input type="search" placeholder="Marseille, France" class="Search" >
-                        
-                            <div id="SearchButton"><button>Rechercher<span><i class="fa-solid fa-magnifying-glass"></i></span>
-                            </button></div>
-                        </form>
-                    </div>
+                        <div class="TexteHeberg">
 
-                    <div id="FiltersBar">
+                            <h2>Auberge La Canebière</h2>
 
-                        <p class="Filtres">Filtres</p>
-                        <p class="FilterButton"><i class="fa-sharp fa-solid fa-money-bill-wave"></i> Économique</p>
-                        <p class="FilterButton"><i class="fa-solid fa-person"></i> Familial</p>
-                        <p class="FilterButton"><i class="fa-sharp fa-solid fa-heart"></i> Romantique</p>
-                        <p class="FilterButton"><i class="fa-solid fa-dog"></i> Animaux autorisés</p>
+                            <h3>Nuit à partir de 25<span class="euro">€</span></h3>
 
-                    </div>
-
-                    <div id="infobar">
-                        <i class="fa-solid fa-info"></i>
-                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                    </div>
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </section>
 
-            <!-- Bloc Résultats-->
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
+                        <div class="PhotoPort"></div>
 
-            <main>
+                        <div class="TexteHeberg">
 
+                            <h2>Hôtel du port</h2>
 
-                <!-- Section Résultats Hébergement-->
+                            <h3>Nuit à partir de 52<span class="euro">€</span></h3>
 
-                    <article id="RésultatHébergement">
-                        <div class="Titre">
-                            <h1> Hébergements à Marseille</h1>
-                        </div>
-
-                        <div id="ListeHébergement">
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoCanebière"></div>
-
-                                <div class="TexteHeberg">
-                                
-                                    <h2>Auberge La Canebière</h2>                                
-                                
-                                    <h3>Nuit à partir de 25<span class="euro">€</span></h3>
-                                
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoPort"></div>
-
-                                <div class="TexteHeberg">
-                                
-                                    <h2>Hôtel du port</h2>
-                                
-                                    <h3>Nuit à partir de 52<span class="euro">€</span></h3>
-                                
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoMouettes"></div>
-
-                                <div class="TexteHeberg">
-                               
-                                    <h2>Hôtel Les mouettes</h2>
-                               
-                                    <h3>Nuit à partir de 76<span class="euro">€</span></h3>
-                               
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoMer"></div>
-
-                                <div class="TexteHeberg">
-                                
-                                    <h2>Hôtel de la mer</h2>
-                               
-                                    <h3>Nuit à partir de 46<span class="euro">€</span></h3>
-                                
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoPanier"></div>                            
-
-                                <div class="TexteHeberg">
-                                
-                                    <h2>Auberge Le Panier</h2>
-                               
-                                    <h3>Nuit à partir de 23<span class="euro">€</span></h3>
-                               
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésHéber">
-                                <a href="#" class="fill-div">
-
-                                <div class="PhotoAmina"></div>
-
-                                <div class="TexteHeberg">
-                                
-                                    <h2>Hôtel Chez Amina</h2>
-                               
-                                    <h3>Nuit à partir de 96<span class="euro">€</span></h3>
-                             
-                                <div class="NoteRésultat">
-                                    <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                    <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                </div>
-                                </div>
-                                </a>
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
                             </div>
                         </div>
+                    </a>
+                </div>
 
-                        <div id="Afficher">
-                            <p>Afficher plus</p>
-                        </div>
-                    </article>
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
+                        <div class="PhotoMouettes"></div>
 
-                    <article id="RésultatPopulaires">
+                        <div class="TexteHeberg">
 
-                        <div class="Titre">
-                            <h1>Les plus populaires</h1>
+                            <h2>Hôtel Les mouettes</h2>
 
-                            <div id="IconPop"><i class="fa-solid fa-chart-line"></i></div>
-                        </div>
+                            <h3>Nuit à partir de 76<span class="euro">€</span></h3>
 
-                        
-                        <div id="RésPopu">
-                            <div class="BlocRésPop">
-                                <a href="#">
-
-                                <div class="PhotoSoleil"></div>
-
-
-                                <div class="TextePop">
-                                    
-                                        <h2>Hôtel Le soleil du matin</h2>
-                                   
-                                        <h3>Nuit à partir de 128<span class="euro">€</span></h3>
-                                   
-                                    <div class="NoteRésultat">
-                                        <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésPop">
-                                <a href="#">
-
-                                <div class="PhotoEau"></div>
-
-                                <div class="TextePop">
-
-                                   
-                                        <h2>Chambres d'hôtes Au coeur de l'eau</h2>
-                                    
-                                        <h3>Nuit à partir de 71<span class="euro">€</span></h3>
-                                    
-                                    <div class="NoteRésultat">
-                                        <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocRésPop">
-                                <a href="#">
-
-                                <div class="PhotoBleu"></div>
-
-                                <div class="TextePop">
-
-                                   
-                                        <h2>Hôtel Bleu et Blanc</h2>
-                                    
-                                        <h3>Nuit à partir de 68<span class="euro">€</span></h3>
-                                   
-                                    <div class="NoteRésultat">
-                                        <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
-                                        <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
-                                    </div>
-                                </div>
-                                </a>
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
                             </div>
                         </div>
-                    </article>
-            </main>
+                    </a>
+                </div>
 
-            <!-- Bloc activités-->
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
-                <section>
+                        <div class="PhotoMer"></div>
 
-                    <div id="BlocActivités">
-                        <div id="TitreActivités">
-                            <h1>Activités à Marseille</h1>
-                        </div>
+                        <div class="TexteHeberg">
 
-                        <div id="BlocRésActivités">
-                            
+                            <h2>Hôtel de la mer</h2>
 
-                            <div class="BlocActivité">
-                                <a href="#">
+                            <h3>Nuit à partir de 46<span class="euro">€</span></h3>
 
-                                <div id="BlocImageVieuxPort"></div>
-                                <div class="NomRésultat">
-                                    <h2>Vieux-Port</h2>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocActivité">
-                                <a href="#">
-
-                                <div id="BlocImagePomègues"></div>
-                                <div class="NomRésultat">
-                                    <h2>Fort de Pomègues</h2>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocActivité">
-                                <a href="#">
-
-                                <div id="BlocImageCalanques"></div>
-                                <div class="NomRésultat">
-                                    <h2>Parc National des Calanques</h2>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="BlocActivité">
-                                <a href="#">
-
-                                <div id="BlocImageGarde"></div>
-                                <div class="NomRésultat">
-                                    <h2>Notre-Dame-de-la-Garde</h2>
-                                </div>
-                                </a>
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
 
-                </section>
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
+                        <div class="PhotoPanier"></div>
 
-                <!-- Footer-->
+                        <div class="TexteHeberg">
 
-                    <footer>
-                    <div id="Footer">
+                            <h2>Auberge Le Panier</h2>
 
-                        <div class="List">
-                            
-                                <p>À propos</p>
-                                <ul>
-                                    <li>Fonctionnement du site</li>
-                                    <li>Conditions générales</li>
-                                    <li>Données et confidentialité</li>
-                                </ul>
-                            
+                            <h3>Nuit à partir de 23<span class="euro">€</span></h3>
+
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
                         </div>
+                    </a>
+                </div>
 
-                        <div class="List">
-                            
-                                <p>Nos hébergements</p>
-                                <ul>
-                                    <li>Charte qualité</li>
-                                    <li>Proposer votre hôtel</li>
-                                </ul>
-                           
-                        </div>
+                <div class="BlocRésHéber">
+                    <a href="#" class="fill-div">
 
-                        <div class="List">
-                           
-                                <p>Assistance</p>
-                                <ul>
-                                    <li>Centre d'aide</li>
-                                    <li>Nous contacter</li>
-                                </ul>
-                            
+                        <div class="PhotoAmina"></div>
+
+                        <div class="TexteHeberg">
+
+                            <h2>Hôtel Chez Amina</h2>
+
+                            <h3>Nuit à partir de 96<span class="euro">€</span></h3>
+
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
                         </div>
-                    </div>
-                    </footer>
+                    </a>
+                </div>
+            </div>
+
+            <div id="Afficher">
+                <p>Afficher plus</p>
+            </div>
+        </article>
+
+
+        <article id="RésultatPopulaires">
+
+            <div class="Titre">
+                <h1>Les plus populaires</h1>
+
+                <div id="IconPop"><i class="fa-solid fa-chart-line"></i></div>
+            </div>
+
+
+            <div id="RésPopu">
+                <div class="BlocRésPop">
+                    <a href="#">
+
+                        <div class="PhotoSoleil"></div>
+
+
+                        <div class="TextePop">
+
+                            <h2>Hôtel Le soleil du matin</h2>
+
+                            <h3>Nuit à partir de 128<span class="euro">€</span></h3>
+
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="BlocRésPop">
+                    <a href="#">
+
+                        <div class="PhotoEau"></div>
+
+                        <div class="TextePop">
+
+
+                            <h2>Chambres d'hôtes Au coeur de l'eau</h2>
+
+                            <h3>Nuit à partir de 71<span class="euro">€</span></h3>
+
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="BlocRésPop">
+                    <a href="#">
+
+                        <div class="PhotoBleu"></div>
+
+                        <div class="TextePop">
+
+
+                            <h2>Hôtel Bleu et Blanc</h2>
+
+                            <h3>Nuit à partir de 68<span class="euro">€</span></h3>
+
+                            <div class="NoteRésultat">
+                                <div class="Etoile1"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile2"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile3"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile4"><i class="fa-solid fa-star"></i></div>
+                                <div class="Etoile5"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Bloc activités-->
+
+    <section>
+
+        <div id="BlocActivités">
+            <div id="TitreActivités">
+                <h1>Activités à Marseille</h1>
+            </div>
+
+            <div id="BlocRésActivités">
+
+
+                <div class="BlocActivité">
+                    <a href="#">
+
+                        <div id="BlocImageVieuxPort"></div>
+                        <div class="NomRésultat">
+                            <h2>Vieux-Port</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="BlocActivité">
+                    <a href="#">
+
+                        <div id="BlocImagePomègues"></div>
+                        <div class="NomRésultat">
+                            <h2>Fort de Pomègues</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="BlocActivité">
+                    <a href="#">
+
+                        <div id="BlocImageCalanques"></div>
+                        <div class="NomRésultat">
+                            <h2>Parc National des Calanques</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="BlocActivité">
+                    <a href="#">
+
+                        <div id="BlocImageGarde"></div>
+                        <div class="NomRésultat">
+                            <h2>Notre-Dame-de-la-Garde</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer-->
+
+    <footer>
+        <div id="Footer">
+
+            <div class="List">
+
+                <p>À propos</p>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+
+            </div>
+
+            <div class="List">
+
+                <p>Nos hébergements</p>
+                <ul>
+                    <li>Charte qualité</li>
+                    <li>Proposer votre hôtel</li>
+                </ul>
+
+            </div>
+
+            <div class="List">
+
+                <p>Assistance</p>
+                <ul>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
 
 </body>
 
