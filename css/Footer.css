@@ -2,18 +2,18 @@
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     margin-left: 50px;
     margin-top: 60px;
-
+    
 }
 
 #Footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     width: 95.50%;
     height: 11%;
-    background-color: #F2F2F2;
+    background-color: #F2F2F2;    
 }
 
 
@@ -52,7 +52,7 @@ footer ul {
 
 @media screen  and (max-width: 991px) {
     footer {
-        margin-left: 0%;
+        margin-left:0% ;
         margin-top: 70px;
         justify-content: center;
     }
