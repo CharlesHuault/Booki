@@ -50,7 +50,7 @@ footer ul {
 
 /* Footer Tablette */
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen  and (max-width: 991px) {
     footer {
         margin-left:0% ;
         margin-top: 70px;
