@@ -10,7 +10,7 @@
 
 #BlocActivités a {
     text-decoration: none;
-    color: black;    
+    color: black;
 }
 
 
@@ -90,7 +90,7 @@
     }
 
     .BlocActivité {
-        height:auto;
+        height: auto;
         width: 182px;
     }
 
@@ -120,9 +120,9 @@
         background-position: 50% 0%;
     }
 
-    .NomRésultat { 
+    .NomRésultat {
         height: 21%;
-    
+
     }
 }
 
@@ -144,14 +144,15 @@
         height: auto;
     }
 
-    .BlocActivité{
+    .BlocActivité {
         width: 89%;
         margin-bottom: 20px;
     }
+
     .BlocActivité a {
         height: 100%;
         width: 100%;
-        
+
     }
 
     #BlocImageVieuxPort {

@@ -8,7 +8,7 @@
     border-radius: 20px;
     margin-top: 40px;
     flex-direction: column;
-    
+
 }
 
 #RésPopu {
@@ -21,7 +21,7 @@
 #RésultatPopulaires .BlocRésPop {
     display: flex;
     justify-content: center;
-    height: 144px; 
+    height: 144px;
     width: 80.95%;
     margin-left: 37px;
     margin-bottom: 30px;
@@ -54,8 +54,6 @@
     margin-top: 10px;
     margin-right: 10px;
 }
-
-
 
 
 .TextePop h3 {
@@ -105,7 +103,7 @@
         width: auto;
         margin-left: 2%;
         margin-right: 2%;
-          
+
     }
 
     #RésultatPopulaires .Titre {
@@ -143,7 +141,7 @@
 
     #RésPopu .TextePop {
         width: 50%;
-        
+
     }
 
     #RésultatPopulaires h2 {
@@ -193,13 +191,13 @@
         margin-bottom: 26px;
         padding-left: 20px;
         padding-right: 20px;
-    } 
+    }
 
     #RésultatPopulaires h2 {
         font-size: 16px;
     }
-    
-    .PhotoBleu{
+
+    .PhotoBleu {
         background-size: 100% auto;
     }
 
