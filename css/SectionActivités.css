@@ -111,7 +111,11 @@
 
     .PhotoActivité img {
         height: 134px;
-        object-position: 50% 30%;
+        object-position: 50% 25%;
+    }
+
+    #Pomègues {
+        object-position: 50% 45%;
     }
 
     .NomRésultat {
